@@ -1,0 +1,206 @@
+a:link{
+    color: #555;
+}
+
+a{
+    color: #555;
+}
+
+a:hover{
+     color: #666;
+}
+
+body{
+    color:#555;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.title-bar{
+    width: 100%;
+    height: 101px;
+    background: #FFF;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.navbar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: none;
+    background: -webkit-linear-gradient(180deg, #524D4F , #262425);  /*For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #524D4F, #262425);  /*For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #524D4F, #262425);  /*For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #524D4F, #262425);
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li :hover {
+    color:lightgray !important;
+}
+
+.gray-container{
+    width: 100%;
+    background: whitesmoke;
+}
+.slide-container{
+    background: whitesmoke;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navlist{
+    float: left;
+    margin-top: 10px;
+    width: 20%;
+    font-size: 12px;
+}
+
+.container-mid{
+    margin-top: 10px; 
+    margin-left: 20px;
+    float:left;
+    width: 75%;
+    font-size: 12px;
+    border-left: 1px dashed lightgray;
+    padding-left: 20px;
+}
+
+#industrialLogos{
+    width:100%;
+    height: 180px;
+}
+
+#block1 {
+    background: url("img/bg-block.gif") repeat-x scroll center top #7DB610;
+}
+#block2 {
+    background: url("img/bg-block2.gif") repeat-x scroll center top #FFB60D;
+}
+#block3 {
+    background: url("img/bg-block3.gif") repeat-x scroll center top #FC6700;
+}
+
+.block{
+    display:inline;
+    width: 95%;
+    float:left;
+    color:white;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.block-container{
+    margin: 20px 35px;
+}
+
+p.block-title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.subcontent{ 
+    display:block;
+    width:100%;
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    vertical-align: text-top;
+    color:gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float:left;
+}
+
+a.boton{
+    height:30px;
+    width:120px;
+    text-align: center;
+    padding-top: 2px;
+    color:white;    
+    display:block;
+    font-size: 18px;
+}
+
+#boton_verde{
+    background: url("img/bg-more.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    margin-top: 105px;
+}
+#boton_verde:hover{    
+    background: url("img/bg-more-act.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    text-decoration: none;
+}
+
+#boton_amarillo{
+    background: url("img/bg-more2.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    margin-top: 55px;
+}
+#boton_amarillo:hover{    
+    background: url("img/bg-more2-act.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    text-decoration: none;
+}
+
+#boton_naranja{
+    background: url("img/bg-more3.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    margin-top: 20px;
+}
+#boton_naranja:hover{    
+    background: url("img/bg-more3-act.gif") no-repeat scroll 0px 0px transparent;
+    background-size: 100%;
+    text-decoration: none;
+}
+
+@media(min-width:768px){
+    .title-bar{
+        width:70%;
+    } 
+    
+    .block{
+      width: 313px; 
+      height: 290px;
+    }
+    
+    .navbar{
+        width:70%;
+    }
+    
+    .subcontent{
+        float:none;
+        height: 220px;
+    }
+}
+@media(max-width:768px){
+    .subcontent{
+        float:left;
+        /*height: 750px;*/
+    }
+    
+    #industrialLogos{
+        height:130px;
+    }
+    
+    #boton_verde, #boton_amarillo{
+        margin-top: 20px;
+    }    
+}
