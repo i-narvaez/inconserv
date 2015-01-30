@@ -80,7 +80,7 @@ body{
 
 #industrialLogos{
     width:100%;
-    height: 180px;
+    height: 150px;
 }
 
 #block1 {
@@ -141,7 +141,7 @@ a.boton{
 #boton_verde{
     background: url("img/bg-more.gif") no-repeat scroll 0px 0px transparent;
     background-size: 100%;
-    margin-top: 105px;
+    margin-top: 60px;
 }
 #boton_verde:hover{    
     background: url("img/bg-more-act.gif") no-repeat scroll 0px 0px transparent;
@@ -152,7 +152,7 @@ a.boton{
 #boton_amarillo{
     background: url("img/bg-more2.gif") no-repeat scroll 0px 0px transparent;
     background-size: 100%;
-    margin-top: 55px;
+    margin-top: 10px;
 }
 #boton_amarillo:hover{    
     background: url("img/bg-more2-act.gif") no-repeat scroll 0px 0px transparent;
@@ -163,7 +163,7 @@ a.boton{
 #boton_naranja{
     background: url("img/bg-more3.gif") no-repeat scroll 0px 0px transparent;
     background-size: 100%;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 #boton_naranja:hover{    
     background: url("img/bg-more3-act.gif") no-repeat scroll 0px 0px transparent;
@@ -178,7 +178,7 @@ a.boton{
     
     .block{
       width: 313px; 
-      height: 290px;
+      height: 235px;
     }
     
     .navbar{
@@ -187,7 +187,7 @@ a.boton{
     
     .subcontent{
         float:none;
-        height: 220px;
+        height: 230px;
     }
 }
 @media(max-width:768px){
