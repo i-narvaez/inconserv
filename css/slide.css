@@ -134,3 +134,10 @@
     #slides a:active {
       color: #9e2020
     }
+
+
+.slide-image{
+  height: 100%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
